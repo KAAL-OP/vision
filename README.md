@@ -13,18 +13,7 @@
 
 ---
 
-<a href="https://twitter.com/k3746ov">
-  <img align="left" alt="Saqi | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
-<a href="https://t.me/k3746ov">
-  <img align="left" alt="K3746OV's Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />
-</a>
-<a href="https://www.instagram.com/fedreasonekropol/">
-  <img align="left" alt="FedreasoNekropol's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-</a>
-<a href="https://www.facebook.com/k3746ov">
-  <img align="left" alt="Saqi Karimov's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a>
+
 
 <br />
 <br />
