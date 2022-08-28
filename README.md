@@ -1,15 +1,13 @@
 
-<img align="center" alt="Code gif" src="https://github.com/chandan-reddy-k/chandan-reddy-k/blob/master/assets/coding-freak.gif" width="100%" />
 
----
 
 `termux-setup-storage`
 
 `pkg install git`
 
-`git clone https://github.com/k3746ov/NEKROPOL`
+`git clone https://github.com/kaal-op/vision`
 
-`cd NEKROPOL`
+`cd vision`
 
 `bash install`
 
