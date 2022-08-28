@@ -64,8 +64,6 @@ printf "
 
 \33[34m[08]\33[0m \33[36msms bomber+call bomber\33[0m
 
-\33[34m[09]\33[0m \33[36msms bomber\33[0m
-
 \33[34m[10]\33[0m \33[36mExit\33[0m
 "
 #options
@@ -101,19 +99,14 @@ bash start.sh
 
 
 elif [[ $option == 07 || $option == 7 ]]; then
-git clone https://github.com/Crevils/InstaReport
+git clone https://github.com/kaal-op/InstaReport
 cd InstaReport
 pip install -r requirements.txt
 python ReportBot.py
 
 
 elif [[ $option == 08 || $option ==  8 ]]; then
-git clone https://github.com/IshwaranRudhara/XLR8_BOMBER
-cd XLR8_BOMBER
-bash xlr8.sh
-
-elif [[ $option == 09 || $option ==  9 ]]; then
-git clone https://github.com/TheSpeedX/TBomb
+git clone https://github.com/kaal0408/TBomb
 cd TBomb
 chmod +x *
 ./TBomb.sh
