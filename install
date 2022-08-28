@@ -42,15 +42,9 @@ printf "
 ´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´´´´´´´´´´´´´´´´´´´´
 
 \33[32mFedreasoNekropolProjects
-       <|owner|> ☆k3746ov\33[0m
+       <|owner|> ☆kaal-op\33[0m
 
-╭━╮╱╭┳━━━┳╮╭━┳━━━┳━━━┳━━━┳━━━┳╮
-┃┃╰╮┃┃╭━━┫┃┃╭┫╭━╮┃╭━╮┃╭━╮┃╭━╮┃┃
-┃╭╮╰╯┃╰━━┫╰╯╯┃╰━╯┃┃╱┃┃╰━╯┃┃╱┃┃┃
-┃┃╰╮┃┃╭━━┫╭╮┃┃╭╮╭┫┃╱┃┃╭━━┫┃╱┃┃┃╱╭╮
-┃┃╱┃┃┃╰━━┫┃┃╰┫┃┃╰┫╰━╯┃┃╱╱┃╰━╯┃╰━╯┃
-╰╯╱╰━┻━━━┻╯╰━┻╯╰━┻━━━┻╯╱╱╰━━━┻━━━╯
-
+        😎😎Vision😎😎
 \33[0m" 
 echo ""
 printf "
@@ -64,7 +58,15 @@ printf "
 
 \33[34m[05]\33[0m \33[36mHeroku\33[0m
 
-\33[34m[06]\33[0m \33[36mExit\33[0m
+\33[34m[06]\33[0m \33[36minsta information\33[0m
+
+\33[34m[07]\33[0m \33[36mInsta auto report\33[0m
+
+\33[34m[08]\33[0m \33[36msms bomber+call bomber\33[0m
+
+\33[34m[09]\33[0m \33[36msms bomber\33[0m
+
+\33[34m[10]\33[0m \33[36mExit\33[0m
 "
 #options
 read -e -p $'\33[33menter option\33[0m : ' option
@@ -89,7 +91,34 @@ elif [[ $option == 05 || $option == 5 ]]; then
 cd $HOME/NEKROPOL/Core/Termux-heroku-cli
 bash install.sh
 
+
 elif [[ $option == 06 || $option == 6 ]]; then
+git clone https://github.com/kaal-op/hack
+cd $HOME
+cd insta-hack
+cd Ig_information_gathering
+bash start.sh
+
+
+elif [[ $option == 07 || $option == 7 ]]; then
+git clone https://github.com/Crevils/InstaReport
+cd InstaReport
+pip install -r requirements.txt
+python ReportBot.py
+
+
+elif [[ $option == 08 || $option ==  8 ]]; then
+git clone https://github.com/IshwaranRudhara/XLR8_BOMBER
+cd XLR8_BOMBER
+bash xlr8.sh
+
+elif [[ $option == 09 || $option ==  9 ]]; then
+git clone https://github.com/TheSpeedX/TBomb
+cd TBomb
+chmod +x *
+./TBomb.sh
+
+elif [[ $option == 10 || $option == 10 ]]; then
 exit
 
 clear
